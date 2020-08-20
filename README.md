@@ -6,7 +6,7 @@
   - Exit docker by typing exit then create a folder in `$Home` called `tf_files`
   - Create a folder called photos within `tf_files` folder
   - Place all images in species labeled folder under the photos folder
-  - Open terminal and link images to docker instance: ```docker run -it -v $HOME/tf_files:/tf_files gcr.io/tensorflow/tensorflow:latest-devel```
+  - Open terminal and link images to docker instance: ```docker pull tensorflow/tensorflow```
   - Get the latest training code:
     - ```cd /tensorflow```
     - ```git pull```
